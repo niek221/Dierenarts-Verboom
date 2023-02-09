@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+/* Variables */
+
+:root {
+    --main-green: #14823B;
+    --wa-green: #25D366;
+    --main-orange: #F8931F;
+    --main-orange-hover: #ff8800de;
+    --text-black: #000;
+    --main-gray: #545454;
+}
+
+/* Keyframes */
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Main section */
+
+main {
+    min-height: 560px;
+}
+
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    margin-left: 50px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* Contact section */
+
+.container-second {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.openhours-container-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-second > h1 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container-second > p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (min-width: 560px) {
+    .container-contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .container-second > h1 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .container-second > p {
+        font-size: 18px;
+        font-weight: 400;
+    }    
+}
+
+@media (min-width: 1200px) {
+    .container-contact {
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-top: 100px;
+        padding-bottom: 75px;
+    }
+}
+
+/* i-frame and image */
+
+.iframe-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.iframe-big {
+    display: none;
+}
+
+.iframe-container > img {
+    height: 200px;
+    width: 200px;
+}
+
+@media (min-width: 560px) {
+    .iframe-container > img {
+        height: 250px;
+        width: 250px;
+    }
+
+    iframe {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+
+
