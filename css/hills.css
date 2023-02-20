@@ -93,6 +93,10 @@ main > .container-main {
     font-weight: 400;
 }
 
+span {
+    font-weight: 500;
+}
+
 .container-image {
     display: flex;
     flex-direction: row;
