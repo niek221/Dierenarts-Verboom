@@ -101,8 +101,8 @@ main > .container-main {
 }
 
 .container-image > img {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 260px;
 }
 
 @media (min-width: 560px) {
@@ -126,8 +126,8 @@ main > .container-main {
     }
 
     .container-image > img {
-        width: 180px;
-        height: 180px;
+        width: 302px;
+        height: 393px;
     }
 }
 
@@ -182,10 +182,10 @@ main > .container-main {
         gap: 200px;
     }
     
-    .container-image > img {
+    /* .container-image > img {
         width: 240px;
         height: 240px;
-    }
+    } */
 }
 
 @media (min-width: 1400px) { 
@@ -244,8 +244,8 @@ main > .container-main {
         margin-right: 150px;
     }
     
-    .container-image > img {
+    /* .container-image > img {
         width: 250px;
         height: 250px;
-    }
+    } */
 }
