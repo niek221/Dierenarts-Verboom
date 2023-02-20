@@ -40,35 +40,43 @@ main {
     margin: 0 auto;    
 } */
 
-.bijsluiters-container {
+main > .container-main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    margin-top: 25px;
+    margin-inline: 35px;
+
+    padding-bottom: 50px;
+}
+
+.container-about {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
-
-    margin-top: 20px;
 }
 
 h1 {
-    padding-top: 20px;
-
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
+    
+    margin-bottom: 15px;
 }
 
-.container-center {
-    margin: 0 auto;
+.container-left {
+    margin-bottom: 10px;
 }
 
 .container-left, .container-right {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .item {
-    max-width: 95%;
+    min-width: 300px;
 
     background-color: #F5F5F5;
     border: 2px solid #D7D7D7;
@@ -85,13 +93,13 @@ h1 {
 
 .name > h2 {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .content {
     max-height: 0;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .content p {
@@ -111,17 +119,17 @@ h1 {
 
 .item.active > .content {
     max-height: 300px;
-    transition: 1.0s;
+    transition: 0.3s;
 }
 
 .item svg {
     transform: rotate(0deg);
-    transition: transform 0.4s;
+    transition: transform 0.3s;
 }
 
 .item.active svg {
     transform: rotate(180deg);
-    transition: transform 0.4s;
+    transition: transform 0.3s;
 }
 
 @media (min-width: 800px) {
@@ -134,7 +142,7 @@ h1 {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        gap: 20px;
+        gap: 75px;
     }
 
     .container-left, .container-right {
@@ -145,12 +153,11 @@ h1 {
         padding-top: 20px;
         padding-bottom: 20px;
 
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .name > h2 {
         font-size: 18px;
-        font-weight: 600;
     }
     
     .item svg {
@@ -159,19 +166,33 @@ h1 {
     }
 }
 
+@media (min-width: 1000px) {   
+    .container-center {
+        gap: 120px;
+    }
+
+    .item {
+        min-width: 400px;
+    
+        background-color: #F5F5F5;
+        border: 2px solid #D7D7D7;
+        cursor: pointer;
+    }
+}
+
 @media (min-width: 1300px) {   
     .container-center {
-        gap: 75px;
+        gap: 150px;
     }
 }
 
 @media (min-width: 1500px) {   
     .container-center {
-        gap: 150px;
+        gap: 200px;
     }
 
     .item {
-        min-width: 700px;
+        min-width: 500px;
     
         background-color: #F5F5F5;
         border: 2px solid #D7D7D7;

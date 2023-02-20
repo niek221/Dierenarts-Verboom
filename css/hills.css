@@ -38,20 +38,20 @@ main > .container-main {
     padding-bottom: 50px;
 }
 
-.container-about {
+.container-hills {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.container-about > .text-container-1 > h1 {
+.container-hills > .text-container-1 > h1 {
     font-size: 18px;
     font-weight: 600;
 
     margin-bottom: 10px;
 }
 
-.container-about > .text-container-2 > h1 {
+.container-hills > .text-container-2 > h1 {
     font-size: 18px;
     font-weight: 500;
 
@@ -70,21 +70,21 @@ main > .container-main {
     width: 119px;
 }
 
-.container-about > .text-container-3 > h1 {
+.container-hills > .text-container-3 > h1 {
     font-size: 18px;
     font-weight: 500;
 
     margin-bottom: 10px;
 }
 
-.container-about > .text-container-4 > h1 {
+.container-hills > .text-container-4 > h1 {
     font-size: 18px;
     font-weight: 500;
 
     margin-bottom: 10px;
 }
 
-.container-about > p {
+.container-hills > p {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -106,7 +106,7 @@ main > .container-main {
 }
 
 @media (min-width: 560px) {
-    .container-about > .download-app-container {
+    .container-hills > .download-app-container {
         display: flex;
         justify-content: start;
 
@@ -115,7 +115,7 @@ main > .container-main {
         gap: 45px;
     }
     
-    .container-about > .download-app-container > a > img {
+    .container-hills > .download-app-container > a > img {
         display: flex;
         justify-content: center;
         text-decoration: none;
@@ -155,17 +155,17 @@ main > .container-main {
         margin-right: 10px;
     }
     
-    .container-about {
+    .container-hills {
         display: flex;
         flex-direction: column;
         gap: 25px;
     }
 
-    .container-about > .download-app-container {
+    .container-hills > .download-app-container {
         display: none;
     }
     
-    .container-about > .download-app-container > a > img {
+    .container-hills > .download-app-container > a > img {
         display: flex;
         justify-content: center;
         text-decoration: none;
@@ -190,34 +190,34 @@ main > .container-main {
 
 @media (min-width: 1400px) { 
 
-    .container-about {
+    .container-hills {
         display: flex;
         flex-direction: column;
         gap: 35px;
     }
 
-    .container-about > .text-container-1 > h1 {
+    .container-hills > .text-container-1 > h1 {
         font-size: 18px;
         font-weight: 600;
     
         margin-bottom: 15px;
     }
     
-    .container-about > .text-container-2 > h1 {
+    .container-hills > .text-container-2 > h1 {
         font-size: 18px;
         font-weight: 500;
     
         margin-bottom: 15px;
     }
         
-    .container-about > .text-container-3 > h1 {
+    .container-hills > .text-container-3 > h1 {
         font-size: 18px;
         font-weight: 500;
     
         margin-bottom: 15px;
     }
     
-    .container-about > .text-container-4 > h1 {
+    .container-hills > .text-container-4 > h1 {
         font-size: 18px;
         font-weight: 500;
     
@@ -240,6 +240,7 @@ main > .container-main {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: 200px;
 
         margin-right: 150px;
     }

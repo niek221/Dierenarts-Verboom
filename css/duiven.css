@@ -44,6 +44,11 @@ main > .container-main {
     gap: 25px;
 }
 
+.vaccinaties, .onderzoek, .bestrijding {
+    position: relative;
+    left: 20px;
+}
+
 .container-about > .text-container-1 > h1 {
     font-size: 18px;
     font-weight: 600;
@@ -82,6 +87,20 @@ main > .container-main {
     font-weight: 500;
 
     margin-bottom: 10px;
+}
+    
+.container-about > .text-container-5 > h1 {
+    font-size: 18px;
+    font-weight: 500;
+
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 500;
+
+    margin-bottom: 5px;
 }
 
 .container-about > p {
@@ -218,6 +237,13 @@ main > .container-main {
     }
     
     .container-about > .text-container-4 > h1 {
+        font-size: 18px;
+        font-weight: 500;
+    
+        margin-bottom: 15px;
+    }
+    
+    .container-about > .text-container-5 > h1 {
         font-size: 18px;
         font-weight: 500;
     
