@@ -166,6 +166,8 @@ body {
 
 header, .header-container, .sub-header {
     z-index: 99;
+
+    animation: fadeIn 0.35s;
 }
 
 .mobile-nav {
@@ -323,7 +325,7 @@ header, .header-container, .sub-header {
         gap: 10px;
     }
 
-    .location-container-2, .openhours-container-2 > p {
+    .location-container-2 > p {
         font-weight: 500;
         font-size: 17px;
     }
@@ -337,8 +339,13 @@ header, .header-container, .sub-header {
         display: none;
     }
     
-    .openhours-container  {
+    .openhours-container {
         text-align: center;
+    }
+
+    .openhours-container-2 > p {
+        font-weight: 500;
+        font-size: 17px;
     }
 
     /* Aligning info */
@@ -507,12 +514,16 @@ nav > .a-active:hover {
 
 main {
     min-height: 700px;
+
+    animation: fadeIn 0.25s;
 }
 
 /* Footer */
 
 footer {
     width: 100%;
+
+    animation: fadeIn 0.35s;
 }
 
 .line-above {
